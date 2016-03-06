@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+		android:gravity="center_vertical"
+	    android:layout_height="105dp"
+	    android:background="#fff"
+	    android:padding="2dp"
+	    >
+		<ImageView android:id="@+id/albumImage" 
+			android:layout_width="105dp"
+			android:layout_height="105dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/ic_launcher"
+			 />
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="105dp"
+			android:orientation="vertical"
+			android:layout_toRightOf="@id/albumImage"
+			android:layout_marginLeft="5dp"
+			android:layout_centerVertical="true"
+			android:background="@drawable/images"
+			>
+			<TextView android:text="Album Name" 
+				android:id="@+id/album_txt_01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="italic|bold"
+				android:textSize="17dp"
+				android:fontFamily="" 
+				android:ellipsize="end"
+				android:singleLine="true" 
+				android:maxLines="1"
+				/>
+			<TextView android:text="Release date"
+				android:id="@+id/album_txt_02"
+				android:textColor="#000FFF"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="13dp" />
+			
+			
+			
+			
+			 <LinearLayout 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="match_parent" 
+			    android:orientation="horizontal">
+			    
+			    <ImageView android:background="@drawable/vote" 
+			        android:layout_height="30dp" 
+			        android:layout_width="50dp"/>
+			    
+			    <TextView android:layout_height="wrap_content" 
+			        android:layout_width="wrap_content" 
+			        android:id="@+id/album_txt_03" 
+			        android:layout_marginLeft="5dp" 
+			        android:textSize="15dp" 
+			        android:textColor="#FF0000" 
+			        android:text="vote" 
+			        android:layout_marginTop="8dp"/>
+			</LinearLayout>
+			
+			 
+			
+			
+			
+			
+			
+
+		</LinearLayout>
+    
+
+</RelativeLayout>

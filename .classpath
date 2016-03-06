@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="E:/android/sdk/platforms/android-22/android.jar" sourcepath="E:/android/sdk/sources/android-22">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/E:/android/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/android/sdk/platforms/android-23/android.jar" sourcepath="E:/android/sdk/sources/android-23">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/E:/android/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="/appcompat_v7"/>
+	<classpathentry exported="true" kind="lib" path="E:/applications/JSONGetDemo/libs/universal-image-loader-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/applications/appcompat_v7/libs/android-support-v7-appcompat.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
